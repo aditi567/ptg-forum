@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  
+    <i class="fas fa-envelope fa-6x"></i>
+    <h1 class="second-heading">Message</h1>
+    <p class="text">Don't keep your thoughts to yourself, share them anonymously!</p>
+
+    <form action="/submit" method="POST">
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="message" placeholder="What's your message?" required>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-lg btn-block btn-info">Submit</button>
+    </form>
+
+
+ 
+</div>
+<%- include('partials/footer') %>

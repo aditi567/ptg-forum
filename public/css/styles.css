@@ -1,0 +1,56 @@
+
+body {
+  height: fit-content;
+  background-color: #c0e0f8;
+  font-family: 'IBM Plex Serif', serif;
+}
+.container{
+margin: 20% auto;
+  min-height: fit-content; 
+  background-color: whitesmoke;
+  padding: 200px 100px;
+  text-align: center;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.171);
+}
+.heading{
+  color: rgb(2, 45, 56);
+  font-weight: bolder;
+  font-size: 8em;
+  font-family:'IBM Plex Serif-bold-500';
+}
+.second-heading{
+  color: rgb(2, 45, 56);
+  font-weight: bolder;
+  font-size: 6em;
+  font-family:'IBM Plex Serif-light-300';
+}
+.text{
+  color:  #04637a;
+  font-size: 2em;
+}
+.time{
+  text-align: right;
+}
+i{
+  color: #83b6dd;
+}
+
+.button{
+  margin: 10px;
+  font-size: 3em;
+}
+
+input[type=email],input[type=password],input[type=text]{
+  border: 2px solid #04637a;
+  box-shadow: 2px 2px #83b6dd;
+  height: 50px;
+}
+.message {
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ddebf7;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.171);
+}

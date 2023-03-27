@@ -1,0 +1,33 @@
+<%- include('partials/header') %>
+
+
+  <div class="container">
+    <i class="fas fa-microphone fa-6x"></i>
+    <h1 class="second-heading">Say it out loud!</h1>
+
+
+
+<% posts.forEach(function(post){ %>
+  <div class="message">
+    <h6><%= post.title %></h6>
+    <p class="text"><%= post.content %></p>
+    <p class="time"><%=post.time %></p>
+  </div>
+<% }); %>
+
+
+    <hr>
+    <div class="row">
+      <div class="col-lg-6">
+        <a class="btn btn-outline-dark btn-block btn-lg" href="/logout" role="button">Log Out</a>
+      </div>
+      
+      <div class="col-lg-6">
+        <a class="btn btn-dark btn-block btn-lg" href="/submit" role="button">Submit a Secret Message</a>
+      </div>
+    </div>
+   
+  </div>
+
+
+<%- include('partials/footer') %>
