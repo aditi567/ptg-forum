@@ -30,7 +30,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://davangeaditi:aditi@cluster0.bhyix2g.mongodb.net/messageDB?authSource=admin&compressors=zlib&retryWrites=true&w=majority&ssl=true", {useNewUrlParser: true, useUnifiedTopology : true});
+mongoose.connect("mongodb+srv://davangeaditi:aditi@cluster0.mk7jjex.mongodb.net/messageDB?authSource=admin&compressors=zlib&retryWrites=true&w=majority&ssl=true", {useNewUrlParser: true, useUnifiedTopology : true});
 mongoose.set("useCreateIndex", true);
 
 const userSchema = new mongoose.Schema ({
